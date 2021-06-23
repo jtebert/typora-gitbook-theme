@@ -6,20 +6,20 @@
     --bg-color: white;
     --side-bar-bg-color: #f5f7f9;
     --control-text-color: #3b454e;
-    --primary-color: #15ac8e;
-    --primary-btn-border-color: #15ac8e;
+    --primary-color: #0fc5be;
+    --primary-btn-border-color: #0fc5be;
     --active-file-bg-color: #e6ecf1;
     --active-file-text-color: inherit;
-    --active-file-border-color: #15ac8e;
+    --active-file-border-color: #0fc5be;
     --item-hover-text-color: #242a31;
     --item-hover-bg-color: #f5f7f9;
     --window-border: 1px solid #e6ecf1;
     --select-text-font-color: white;
-    --select-text-bg-color: #11977d;
+    --select-text-bg-color: #0b938e;
 
     --md-char-color: #9daab6;
     --heading-char-color: #9daab6;
-    --meta-content-color: #15ac8e;
+    --meta-content-color: #0fc5be;
 
     --borders: #e6ecf1;
     --table-border-color: #e6ecf1;
@@ -37,10 +37,10 @@
     --codeboxes-lighter: #1c375f;
     --rawblock-edit-panel-bd: transparent;
 
-    --primary-color-darkest: #083d33;
-    --primary-color-darker2: #0d5748;
-    --primary-color-darker: #11977d;
-    --focus-ring-color: #15ac8e;
+    --primary-color-darkest: #03312f;
+    --primary-color-darker2: #07625f;
+    --primary-color-darker: #0b938e;
+    --focus-ring-color: #0fc5be;
 
     --danger-color: rgb(255, 70, 66);
 
@@ -284,7 +284,7 @@ blockquote,
 ul,
 ol,
 dl {
-    margin: 0.5rem 0rem 1.5rem 0rem;
+    margin: 0.5rem 0rem 1rem 0rem;
 }
 
 li > ol,
@@ -300,6 +300,10 @@ hr {
     border: 0 none;
     overflow: hidden;
     box-sizing: content-box;
+}
+
+li p {
+    margin-bottom: 0;
 }
 
 li p.first {
@@ -874,7 +878,6 @@ input[type="checkbox"]:checked:after {
 /*MATH*/
 
 .md-rawblock-container {
-    padding: 1rem;
     border-radius: 0.3rem;
     cursor: pointer;
     transition-duration: 0.2s;
