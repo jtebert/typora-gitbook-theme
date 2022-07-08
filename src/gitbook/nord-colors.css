@@ -1,0 +1,114 @@
+/*by h16nning*/
+
+:root {
+
+    /* Base colors */
+
+    --aurora-red: #bf616a;
+    --aurora-orange: #d08770;
+    --aurora-yellow: #ebcb8b;
+    --aurora-green: #a3be8c;
+    --aurora-purple: #b48ead;
+
+    --polar-night--1: #2a2f3a;
+    --polar-night-0: #2e3440;
+    --polar-night-1: #3b4252;
+    --polar-night-2: #434c5e;
+    --polar-night-3: #4c566a;
+    --polar-night-4: #5e6e7e;
+    --polar-night-5: #8a92a3;
+    --polar-night-6: #b3b6b7;
+
+    --snow-storm-0: #d8dee9;
+    --snow-storm-1: #e5e9f0;
+    --snow-storm-2: #eceff4;
+
+    --frost-0: #8fbcbb;
+    --frost-1: #88c0d0;
+    --frost-2: #81a1c1;
+    --frost-3: #5e81ac;
+
+    /*****************************/
+
+    --bg-color: var(--polar-night-0);
+    --side-bar-bg-color: var(--polar-night--1);
+    --control-text-color: var(--snow-storm-2);
+    --primary-color: var(--frost-0);
+    --primary-btn-border-color: var(--frost-0);
+    --active-file-bg-color: #252a34;
+    --active-file-text-color: inherit;
+    --active-file-border-color: var(--frost-0);
+    --item-hover-text-color: #8092af;
+    --item-hover-bg-color: #1c2026;
+    --window-border: 1px solid #272c35;
+    --select-text-font-color: var(--snow-storm-2);
+    --select-text-bg-color: #8FBCBB;
+
+    --md-char-color: #8092af;
+    --heading-char-color: #8092af;
+    --meta-content-color: #8FBCBB;
+
+    --borders: #3b4252;
+    --table-border-color: #3b4252;
+    --boxes: #3b4252;
+    --boxes-darker: #353b46;
+    --boxes-darker2: #3e4551;
+    --boxes-darkest: #4f5764;
+    --drag-placeholder-color: #3e4551;
+
+    --text-color: var(--snow-storm-2);
+    --heading-text-color: var(--snow-storm-2);
+    --light-text-color: #8a92a3;
+    --light-text-color-brighter: #9aa2b1;
+    --codeboxes: #252a34;
+    --codeboxes-lighter: #434c5e;
+    --rawblock-edit-panel-bd: transparent;
+
+    --primary-color-darkest: #485e5e; /*#001f50*/
+    --primary-color-darker2: #567170; /*#00307c*/
+    --primary-color-darker: #729696; /*#3884ff*/
+    --focus-ring-color: #729696;
+
+    --danger-color: #bf616a;
+
+    --node-fill: #5252ad;
+    --node-border: #3f3fb8;
+    --cluster-fill: #ffffde;
+    --cluster-border: #aaaa33;
+    --note-fill: #fff5ad;
+    --note-border: #aaaa33;
+
+    /*****************************/
+
+    /* Code colors */
+
+    --cm-comment: var(--polar-night-6);
+    --cm-code: var(--polar-night-6);
+    --cm-string: var(--aurora-green);
+    --cm-number: var(--aurora-orange);
+    --cm-variable: var(--snow-storm-2);
+    --cm-def: var(--frost-0);
+    --cm-operator: var(--frost-2);
+    --cm-keyword: var(--frost-3);
+    --cm-atom: var(--aurora-purple);
+    --cm-meta: var(--snow-storm-2);
+    --cm-header: var(--frost-0);
+    --cm-attribute: var(--aurora-orange);
+    --cm-type: var(--aurora-purple);
+    --cm-property: var(--aurora-yellow);
+    --cm-builtin: var(--aurora-green);
+
+    /* Math colors */
+    --math-tag: var(--frost-0);
+    --math-atom: var(--aurora-purple);
+    --math-number: var(--aurora-orange);
+    --math-keyword: var(--frost-3);
+    --math-bracket: var(--light-text-color);
+
+
+    /*****************************/
+
+    --font-family: "Montserrat", sans-serif;
+    --code-font-family: "Fira Code";
+    --monospace: "Fira Code";
+}
