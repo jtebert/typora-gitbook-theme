@@ -33,20 +33,20 @@
     --bg-color: var(--polar-night-0);
     --side-bar-bg-color: var(--polar-night--1);
     --control-text-color: var(--snow-storm-2);
-    --primary-color: var(--frost-0);
-    --primary-btn-border-color: var(--frost-0);
+    --primary-color: var(--frost-1);
+    --primary-btn-border-color: var(--frost-1);
     --active-file-bg-color: #252a34;
     --active-file-text-color: inherit;
-    --active-file-border-color: var(--frost-0);
+    --active-file-border-color: var(--frost-1);
     --item-hover-text-color: #8092af;
     --item-hover-bg-color: #1c2026;
     --window-border: 1px solid #272c35;
     --select-text-font-color: var(--snow-storm-2);
-    --select-text-bg-color: #8FBCBB;
+    --select-text-bg-color: var(--frost-1);
 
     --md-char-color: #8092af;
     --heading-char-color: #8092af;
-    --meta-content-color: #8FBCBB;
+    --meta-content-color: var(--frost-1);
 
     --borders: #3b4252;
     --table-border-color: #3b4252;
@@ -82,26 +82,27 @@
 
     /* Code colors */
 
-    --cm-comment: var(--polar-night-6);
-    --cm-code: var(--polar-night-6);
+    --cm-comment: var(--polar-night-4);
+    --cm-code: var(--polar-night-5);
     --cm-string: var(--aurora-green);
-    --cm-number: var(--aurora-orange);
-    --cm-variable: var(--snow-storm-2);
-    --cm-def: var(--frost-0);
+    --cm-number: var(--aurora-purple);
+    --cm-variable: var(--snow-storm-1);
+    --cm-def: var(--frost-1);
     --cm-operator: var(--frost-2);
-    --cm-keyword: var(--frost-3);
+    --cm-keyword: var(--frost-2);
     --cm-atom: var(--aurora-purple);
     --cm-meta: var(--snow-storm-2);
     --cm-header: var(--frost-0);
-    --cm-attribute: var(--aurora-orange);
-    --cm-type: var(--aurora-purple);
+    --cm-attribute: var(--snow-storm-0);
+    --cm-type: var(--frost-0);
     --cm-property: var(--aurora-yellow);
     --cm-builtin: var(--aurora-green);
+    --cm-brackets: var(--frost-0);
 
     /* Math colors */
-    --math-tag: var(--frost-0);
+    --math-tag: var(--frost-1);
     --math-atom: var(--aurora-purple);
-    --math-number: var(--aurora-orange);
+    --math-number: var(--aurora-purple);
     --math-keyword: var(--frost-3);
     --math-bracket: var(--light-text-color);
 
@@ -109,6 +110,6 @@
     /*****************************/
 
     --font-family: "Montserrat", sans-serif;
-    --code-font-family: "Fira Code";
-    --monospace: "Fira Code";
+    --code-font-family: "Hack Nerd Font";
+    --monospace: "Hack Nerd Font";
 }
