@@ -22,11 +22,31 @@ body {
     font-size: 0.95rem;
     max-width: 850px;
     margin: 0 auto;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     padding: 30px;
     padding-bottom: 100px;
     position: static;
     width: 100%;
+    transform: none;
+}
+
+#write > p:first-child:empty {
+    position: static;
+}
+
+#write > p:only-child:empty::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("gitbook/arctic-ocean-fractal.svg") no-repeat 45% 90% transparent;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
 }
 
 #write > ul:first-child,
